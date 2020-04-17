@@ -2,6 +2,8 @@ package it.polito.tdp.nobel.db;
 
 import it.polito.tdp.nobel.model.Esame;
 
+//questa classe serve se vogliamo andare a popolare il data base con i nostri esami
+
 public class PopulateDB {
 
 	public static void main(String[] args) {

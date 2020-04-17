@@ -1,12 +1,17 @@
 package it.polito.tdp.nobel.db;
 
 import java.sql.Connection;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 import it.polito.tdp.nobel.model.Esame;
+
+
+//la tabella del database degli esami e' organizzata nella maniera seguente
+//codice, voto, crediti, nomeCorso 
 
 
 public class EsameDAO {
